@@ -5021,6 +5021,13 @@ body > .mui-progressbar
 
     src: url('../fonts/mui.ttf') format('truetype');
 }
+@font-face {
+    font-family: Muiicons;
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/iconfont1.ttf') format('truetype');
+}
 .mui-icon
 {
     font-family: Muiicons;
@@ -5480,6 +5487,14 @@ body > .mui-progressbar
 {
     content: '\e588';
 }
+
+.icon-gouwuche-copy:before { content: "\e600"; }
+
+.icon-16pxsousuo:before { content: "\e672"; }
+
+.icon-vip:before { content: "\e632"; }
+
+.icon-home:before { content: "\e601"; }
 
 .mui-fullscreen
 {
