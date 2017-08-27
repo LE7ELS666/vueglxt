@@ -25,7 +25,7 @@ module.exports = {
             },
             {
                 //处理文件
-                test:/\.(jpg|png|svg|ttf)$/,
+                test:/\.(gif|jpg|png|svg|ttf)$/,
                 loader:'url-loader',
                 options:{
                     limit:4096
